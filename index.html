@@ -14,23 +14,46 @@
     </header>
     <div class="container">
         <div class="quiz-container">
-            <div class="num-questao">
+            <div class="num-questao1">
                 <h3>1</h3>
                 <h4 class="pergunta">Qual das opções é uma linguagem de marcação de texto?</h4>
             </div>
-            <div class="respostas">  
+            <div class="respostas1">  
                 <button class="opcao"><p>CSS</p></button>
                 <button class="opcao"><p>HTML</p></button>
                 <button class="opcao"><p>React</p></button>
                 <button class="opcao"><p>Java Script</p></button>
             </div>
+            <div class="num-questao2">
+                <h3>2</h3>
+                <h4 class="pergunta">Qual das opções é uma linguagem de estilização?</h4>
+            </div>
+            <div class="respostas2">  
+                <button class="opcao"><p>CSS</p></button>
+                <button class="opcao"><p>Python</p></button>
+                <button class="opcao"><p>React</p></button>
+                <button class="opcao"><p>PHP</p></button>
+            </div>
+            <div class="num-questao3">
+                <h3>3</h3>
+                <h4 class="pergunta">Qual método do JavaScript é utilizado para selecionar um elemento com base em seu ID</h4>
+            </div>
+            <div class="respostas3">  
+                <button class="opcao"><p>querySelector()</p></button>
+                <button class="opcao"><p>querySelectorAll()</p></button>
+                <button class="opcao"><p>getElementsByClassName()</p></button>
+                <button class="opcao"><p>getElementById()</p></button>
+            </div>
         </div>
     </div>
     <div class="nav">
-        <i class="fa-solid fa-arrow-left"></i>
+        <i class="fa-solid fa-arrow-left" onclick="voltarPergunta()"></i>
         <button id="btn1">1</button>
         <button id="btn2">2</button>
         <button id="btn3">3</button>
+    </div>
+    <div class="btn-confirma">
+        <button><i class="fa-solid fa-arrow-right" onclick="proximaPergunta()"></i></button>
     </div>
 </body>
 </html>

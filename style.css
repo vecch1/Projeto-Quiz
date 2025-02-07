@@ -28,13 +28,15 @@ body {
 }
 
 
-.num-questao {
+.num-questao1,
+.num-questao2,
+.num-questao3 {
     display: flex;
     align-items: center;
 }
 
 
-.num-questao h3{
+.num-questao1 h3{
     width: 35px;
     height: 35px;
     border-radius: 5px;
@@ -55,7 +57,7 @@ body {
 }
 
 
-.respostas{
+.respostas1{
     margin-top: 20px;
 }
 
@@ -114,7 +116,24 @@ body {
 }
 
 
+.btn-confirma {
+    margin-left: 950px;
+    margin-top: -30px;
+}
+
+.btn-confirma button{
+    width: 40px;
+    height: 30px;
+    background-color: green;
+    color: #fff;
+    display: none;
+}
 
 
 
-
+.num-questao2,
+.num-questao3,
+.respostas2,
+.respostas3{
+    display: none;
+}
