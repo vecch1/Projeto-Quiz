@@ -167,3 +167,16 @@ body {
 }
 
 
+.finalizar{
+    border-radius: 8px;
+    border: none;
+    color: #fff;
+    background-color: #2fad33;
+    width: 100px;
+    height: 38px;
+    font-size: 15px;
+     display: none; 
+    margin-left: 62%;
+    margin-top: 25px;
+
+}
