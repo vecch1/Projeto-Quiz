@@ -65,7 +65,7 @@ body {
 
 .pergunta1{
     margin-left: 10px;
-    margin-top: 50px;
+    margin-top: 55px;
     font-size: 18px;
     color: #fff;
     
@@ -186,6 +186,241 @@ body {
 
 
 
-/*  */
+/* responsividade */
+
+@media(max-width: 450px) {
+    .container {
+      width: 90%;
+      height: 300px;
+      margin-left: 5%;
+      margin-top: 20px;
+    }
+  
+    .titulo {
+      font-size: 15px;
+      margin-top: 40px;
+    }
+  
+    .num-questao1 h3,
+    .num-questao2 h3,
+    .num-questao3 h3 {
+      width: 25px;
+      height: 25px;
+      font-size: 18px;
+      margin-top: 30px;
+      margin-left: 20px;
+    }
+  
+    .pergunta1,
+    .pergunta2,
+    .pergunta3 {
+      font-size: 14px;
+      margin-left: 10px;
+      margin-top: 20px;
+    }
+  
+    .respostas1,
+    .respostas2,
+    .respostas3 {
+      margin-top: 10px;
+    }
+  
+    .opcao {
+      width: 80%;
+      margin-left: 10%;
+      margin-top: 10px;
+      padding: 5px;
+    }
+  
+    .nav {
+      margin-left: 20%;
+      margin-top: 20px;
+    }
+  
+    .nav i {
+      font-size: 10px;
+    }
+  
+    .nav button {
+      width: 15px;
+      height: 15px;
+    }
+  
+    #btn-confirma {
+      margin-left: 70%;
+      margin-top: -20px;
+    }
+  
+    #btn-confirma button {
+      width: 30px;
+      height: 20px;
+    }
+  
+    .agradecimento {
+      font-size: 20px;
+      margin-top: 100px;
+    }
+  } 
+        
+       
+  @media(max-width: 750px) {
+    .container {
+      width: 80%;
+      height: 350px;
+      margin-left: 10%;
+      margin-top: 30px;
+    }
+  
+    .titulo {
+      font-size: 16px;
+      margin-top: 50px;
+    }
+  
+    .num-questao1 h3,
+    .num-questao2 h3,
+    .num-questao3 h3 {
+      width: 30px;
+      height: 30px;
+      font-size: 20px;
+      margin-top: 40px;
+      margin-left: 25px;
+    }
+  
+    .pergunta1,
+    .pergunta2,
+    .pergunta3 {
+      font-size: 16px;
+      margin-left: 15px;
+      margin-top: 25px;
+    }
+  
+    .respostas1,
+    .respostas2,
+    .respostas3 {
+      margin-top: 15px;
+    }
+  
+    .opcao {
+      width: 85%;
+      margin-left: 7.5%;
+      margin-top: 15px;
+      padding: 10px;
+    }
+  
+    .nav {
+      margin-left: 30%;
+      margin-top: 30px;
+    }
+  
+    .nav i {
+      font-size: 12px;
+    }
+  
+    .nav button {
+      width: 20px;
+      height: 20px;
+    }
+  
+    #btn-confirma {
+      margin-left: 80%;
+      margin-top: -25px;
+    }
+  
+    #btn-confirma button {
+      width: 35px;
+      height: 25px;
+    }
+  
+    .agradecimento {
+      font-size: 25px;
+      margin-top: 120px;
+    }
+  }
+
+
+
+  @media(max-width: 1000px) {
+    .container {
+      width: 70%;
+      height: 400px;
+      margin-left: 15%;
+      margin-top: 40px;
+    }
+  
+    .titulo {
+      font-size: 17px;
+      margin-top: 60px;
+    }
+  
+    .num-questao1 h3,
+    .num-questao2 h3,
+    .num-questao3 h3 {
+      width: 35px;
+      height: 35px;
+      font-size: 22px;
+      margin-top: 50px;
+      margin-left: 30px;
+    }
+  
+    .pergunta1,
+    .pergunta2,
+    .pergunta3 {
+      font-size: 17px;
+      margin-left: 20px;
+      margin-top: 30px;
+    }
+  
+    .respostas1,
+    .respostas2,
+    .respostas3 {
+      margin-top: 20px;
+    }
+  
+    .opcao {
+      width: 90%;
+      margin-left: 5%;
+      margin-top: 20px;
+      padding: 15px;
+    }
+  
+    .nav {
+      margin-left: 40%;
+      margin-top: 40px;
+    }
+  
+    .nav i {
+      font-size: 14px;
+    }
+  
+    .nav button {
+      width: 25px;
+      height: 25px;
+    }
+  
+    #btn-confirma {
+      margin-left: 90%;
+      margin-top: -30px;
+    }
+  
+    #btn-confirma button {
+      width: 40px;
+      height: 30px;
+    }
+  
+    .agradecimento {
+      font-size: 25px;
+      margin-top: 120px;
+    }
+  }
+
+
+
+        
+        
+       
+    
+
+
+
 
 
