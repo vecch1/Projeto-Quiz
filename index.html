@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz - Make</title>
+    <script src="script.js" defer></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
 </head>
 <body>
     <header class="titulo">
@@ -16,17 +16,17 @@
         <div class="quiz-container">
             <div class="num-questao1">
                 <h3>1</h3>
-                <h4 class="pergunta">Qual das opções é uma linguagem de marcação de texto?</h4>
+                <h4 class="pergunta1">Qual das opções é uma linguagem de marcação de texto?</h4>
             </div>
             <div class="respostas1">  
-                <button class="opcao"><p>CSS</p></button>
-                <button class="opcao"><p>HTML</p></button>
-                <button class="opcao"><p>React</p></button>
-                <button class="opcao"><p>Java Script</p></button>
+                <button  class="opcao"><p>CSS</p></button>
+                <button  class="opcao"><p>HTML</p></button>
+                <button  class="opcao"><p>React</p></button>
+                <button  class="opcao"><p>Java Script</p></button>
             </div>
             <div class="num-questao2">
                 <h3>2</h3>
-                <h4 class="pergunta">Qual das opções é uma linguagem de estilização?</h4>
+                <h4 class="pergunta2">Qual das opções é uma linguagem de estilização?</h4>
             </div>
             <div class="respostas2">  
                 <button class="opcao"><p>CSS</p></button>
@@ -36,7 +36,7 @@
             </div>
             <div class="num-questao3">
                 <h3>3</h3>
-                <h4 class="pergunta">Qual método do JavaScript é utilizado para selecionar um elemento com base em seu ID</h4>
+                <h4 class="pergunta3">Qual método JavaScript é utilizado para selecionar um elemento com seu ID</h4>
             </div>
             <div class="respostas3">  
                 <button class="opcao"><p>querySelector()</p></button>
@@ -52,7 +52,7 @@
         <button id="btn2">2</button>
         <button id="btn3">3</button>
     </div>
-    <div class="btn-confirma">
+    <div id="btn-confirma">
         <button><i class="fa-solid fa-arrow-right" onclick="proximaPergunta()"></i></button>
     </div>
 </body>

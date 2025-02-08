@@ -35,8 +35,8 @@ body {
     align-items: center;
 }
 
-
-.num-questao1 h3{
+.num-questao1 h3,
+.num-questao2 h3{
     width: 35px;
     height: 35px;
     border-radius: 5px;
@@ -49,18 +49,46 @@ body {
     font-size: 25px;
 }
 
-.pergunta{
-    margin-top: 35px;
+.num-questao3 h3{
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: rgb(255, 111, 0);
+    color: #fff;
+    margin-top: 40px;
+    margin-left: 45px;
+    text-align: center;
+    padding: 3px;
+    font-size: 25px;
+}
+
+.pergunta1{
+    margin-top: 38px;
     margin-left: 20px;
     font-size: 19px;
     color: #fff;
+    
 }
 
+.pergunta2 {
+    font-size: 19px;
+    color: #fff;
+    margin-left: 120px;
+    margin-top: -27px;
+}
 
-.respostas1{
+.pergunta3{
+    font-size: 17px;
+    color: #fff;
+    margin-left: 90px;
+    margin-top: -25px;
+}
+
+.respostas1,
+.respostas2,
+.respostas3{
     margin-top: 20px;
 }
-
 
 .opcao {
     width: 75%; 
@@ -80,7 +108,10 @@ body {
    background-color: #363636;
 }
 
- 
+.opcao.selected {
+    background-color: green; /* Change to green when selected */
+    color: #fff; /* Keep text color white for contrast */
+}
 
 .opcao p{
     margin-left: 5px;
@@ -115,21 +146,18 @@ body {
     background-color: orangered;
 }
 
-
-.btn-confirma {
+#btn-confirma {
     margin-left: 950px;
     margin-top: -30px;
 }
 
-.btn-confirma button{
+#btn-confirma button{
     width: 40px;
     height: 30px;
     background-color: green;
     color: #fff;
-    display: none;
+
 }
-
-
 
 .num-questao2,
 .num-questao3,
@@ -137,3 +165,5 @@ body {
 .respostas3{
     display: none;
 }
+
+
