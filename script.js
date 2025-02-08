@@ -4,6 +4,7 @@ const btnConfirma = document.getElementById('btn-confirma');
 const questao1 = document.querySelector('.num-questao1');
 const questao2 = document.querySelector('.num-questao2');
 const questao3 = document.querySelector('.num-questao3');
+const agradecimento = document.querySelector('.agradecimento');
 
 const resposta1 = document.querySelector('.respostas1');
 const resposta2 = document.querySelector('.respostas2');
@@ -67,7 +68,14 @@ alternativas.forEach(alternativa => {
          
         document.getElementById('btn2').style.backgroundColor = 'transparent';
         document.getElementById('btn3').style.backgroundColor = 'orangered';     
-    }  
+    }  else if (questao3.style.display !== 'none'){
+        questao3.style.display = 'none';
+        resposta3.style.display = 'none';
+        document.getElementById('btn3').style.backgroundColor = 'transparent';
+
+        agradecimento.style.display = 'block';
+
+    }
 }
 
 
@@ -97,6 +105,12 @@ function voltarPergunta(){
         
         document.querySelector('.pergunta1').style.marginTop = '-28px';
         document.querySelector('.pergunta1').style.marginLeft = '110px';
+    } else if(agradecimento.style.display!== 'none'){
+        questao3.style.display = 'block';
+        resposta3.style.display = 'block';
+
+        agradecimento.style.display = 'none';
+        document.getElementById('btn3').style.backgroundColor = 'orangered';
     }
 }
 

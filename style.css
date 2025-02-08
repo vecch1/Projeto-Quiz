@@ -30,7 +30,8 @@ body {
 
 .num-questao1,
 .num-questao2,
-.num-questao3 {
+.num-questao3,
+.agradecimento {
     display: flex;
     align-items: center;
 }
@@ -166,8 +167,21 @@ body {
 .num-questao2,
 .num-questao3,
 .respostas2,
-.respostas3{
+.respostas3,
+.agradecimento{
     display: none;
+}
+
+
+.agradecimento{
+    font-size: 30px;
+    text-align: center;
+    color: #fbf8f8;
+    margin-top: 150px;
+}
+
+.agradecimento i {
+    color: yellow;
 }
 
 
