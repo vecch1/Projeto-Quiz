@@ -74,16 +74,16 @@ body {
 .pergunta2 {
     font-size: 18px;
     color: #fff;
-    margin-left: 110px; /* Adjusted margin */
-    margin-top: -27px; /* Adjusted margin */
+    margin-left: 110px; 
+    margin-top: -27px; 
 }
 
 
 .pergunta3{
     font-size: 18px;
     color: #fff;
-    margin-left: 105px; /* Adjusted margin */
-    margin-top: -28px; /* Adjusted margin */
+    margin-left: 105px; 
+    margin-top: -28px; 
 }
 
 
@@ -112,8 +112,8 @@ body {
 }
 
 .opcao.selected {
-    background-color: green; /* Change to green when selected */
-    color: #fff; /* Keep text color white for contrast */
+    background-color: green; 
+    color: #fff; 
 }
 
 .opcao p{
